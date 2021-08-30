@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "jsx": "react",
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    //"allowSyntheticDefaultImports": true
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
