@@ -1,5 +1,4 @@
 ﻿import * as React from "react";
-import { Donate } from "..";
 
 export class FooterContainer extends React.Component<{}> {
     public render() {
@@ -10,7 +9,9 @@ export class FooterContainer extends React.Component<{}> {
                         <span className="ep-copyright" style={{ color: "white" }}>Elicit ©2020  |  All Reserved</span>
                         <nav className="footer-nav pull-right">
                             <ul>
-                                <button><Donate/></button>
+                                <p>Home</p>
+                                <p>About</p>
+                                <p>Contact</p>
                             </ul>
                         </nav>
                     </div>

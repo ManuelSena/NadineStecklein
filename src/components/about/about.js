@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     },
     photos: {
         float: "right",
-        image: "https://nadinestecklein.s3.us-west-2.amazonaws.com/NadineHomeSplash.jpg"
+        image: "https://nadinestecklein.s3.us-west-2.amazonaws.com/nadinerev.png"
     },
 }));
 export const About = () => {

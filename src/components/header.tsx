@@ -2,10 +2,12 @@
 import { motion } from "framer-motion";
 import * as React from "react";
 import { Link } from "react-router";
+import { Donate } from "./donate/donate";
 
 export const Header: React.StatelessComponent<{}> = () => {
     return (
         <div style={{ textAlign: "center" }}>
+          
            <motion.div
             animate={{ y:30 }}
             transition={{  ease: "easeOut", duration: 2 }}
@@ -24,6 +26,9 @@ export const Header: React.StatelessComponent<{}> = () => {
                 {/*<Link to="/endorsements" className="btn" >Endorsements</Link>*/}
                 <Link to="/contact" className="btn" >Contact</Link>
                 {/*<Link to="/donate" className="btn" >DONATE</Link>*/}
+            </div>
+            <div className="donatebar">
+                <button><Donate /></button>
             </div>
         </div>
     );

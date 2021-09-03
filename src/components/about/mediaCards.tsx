@@ -7,18 +7,22 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
+import { Grid } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 345,
+        flexGrow: 1,
+        maxWidth: 800,
     },
+
     media: {
-   
-        height: 180,
+        height: 250,
     },
  
     colors: {
-        maxWidth: 345,
+        textAlign: 'center',
+        width: 350,
+
         background: 'linear-gradient(45deg, #FE6B8B 30%, #ff7400 90%)',
         borderRadius: 3,
         border: 0,
@@ -39,7 +43,8 @@ interface Props {
 export default function MediaCard({ src, title, description }: Props) {
     const classes = useStyles();
     return (
-        <Card className={classes.colors}>
+        <Grid>
+            <Card className={classes.colors}>
             <CardActionArea>
                 <CardMedia className={classes.media} image={src} title={title} />
                 <CardContent>
@@ -59,6 +64,7 @@ export default function MediaCard({ src, title, description }: Props) {
         {/*            Learn More*/}
         {/*</Button>*/}
             </CardActions>
-        </Card>
+            </Card>
+            </Grid>
     );
 }

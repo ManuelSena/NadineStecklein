@@ -1,4 +1,4 @@
-﻿﻿@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+﻿@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 
 
@@ -7,11 +7,11 @@
     margin: 0;
     background-image: linear-gradient(45deg, #FF7400 30%,#0E2FEB 90%);
 }
-
+/*
 body > container {
-    padding-left:200px;
+    padding-left: 200px;
     padding-bottom: 100px;
-}
+}*/
 
 html,
 body {
@@ -30,34 +30,40 @@ body {
 .container {
     padding: 0px;
     /*margin-left: 0px;*/
-    padding-bottom: 80px
 }
 
 .private {
     color: white;
 }
+
 .contact {
     display: block;
     text-align: center;
     padding: 0 40px 0 40px;
 }
+
 .podcast {
     padding-bottom: 70px;
     color: white;
     text-align: center;
 }
+
 .positionfour {
     font-style: italic;
 }
+
 .podcast h2 {
     margin-bottom: 20px;
 }
+
 .tg-section-title {
     text-align: center;
 }
+
 .tg-section-heading {
     text-align: center;
 }
+
 .glow {
     padding-left: 10px;
     font-size: 40px;
@@ -89,7 +95,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     /*position: relative;*/
 }
 
@@ -257,28 +262,37 @@ a:hover {
     font-size: 30px;
 }
 /*footer*/
-.fixed-bottom {
+/*.fixed-top {
     position: fixed;
     width: 100%;
     left: 0px;
-    bottom: 0px;
+    bottom: 0px;*/
     /*height: 70px;*/
-    background-color: transparent !Important;
+    /*background-color: transparent !Important;
+}*/
+
+.stickybutton {
+    position: sticky;
+    top: 0
+}
+.donatebar {
+    background: rgb(85,37,131);
+    background: linear-gradient(90deg, rgba(85,37,131,1) 0%, rgba(255,119,0,1) 50%, rgba(0,90,156,1) 100%);
 }
 
-.ep-footer {
-}
+.photos {
+    padding: 20px;
 
-.ep-footerbar {
+}
+/*.ep-footerbar {
     width: 100%;
     float: left;
     background-color: transparent !Important;
-}
+}*/
 
 .ep-copyright {
     color: #fff;
     float: left;
-    padding: 20px 10px;
     font-size: 15px;
     line-height: 20px;
 }
@@ -288,7 +302,6 @@ a:hover {
     margin: 0;
     padding: 35px;
     padding-top: 13px;
-    
 }
 
 .privacy {
@@ -314,8 +327,6 @@ a:hover {
 
 @media screen and (min-width: 789px) and (max-width: 1024px) {
     .container {
-        margin: 0;
-        padding-bottom: 30px
     }
 }
 

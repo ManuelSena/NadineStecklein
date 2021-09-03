@@ -9,13 +9,13 @@ import * as React from 'react';
 const useStyles = makeStyles({
     root: {
         flexGrow: 1,
-        maxWidth: 345,
+        maxWidth: 800,
     },
     media: {
-        height: 180,
+        height: 300,
     },
     colors: {
-        maxWidth: 345,
+        maxWidth: 1200,
         background: 'linear-gradient(45deg, #FE6B8B 30%, #ff7400 90%)',
         borderRadius: 3,
         border: 0,

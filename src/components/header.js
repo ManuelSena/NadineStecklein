@@ -2,6 +2,7 @@ import { Typography } from "@material-ui/core";
 import { motion } from "framer-motion";
 import * as React from "react";
 import { Link } from "react-router";
+import { Donate } from "./donate/donate";
 export const Header = () => {
     return (React.createElement("div", { style: { textAlign: "center" } },
         React.createElement(motion.div, { animate: { y: 30 }, transition: { ease: "easeOut", duration: 2 } },
@@ -10,6 +11,9 @@ export const Header = () => {
         React.createElement("div", null,
             React.createElement(Link, { to: "/home", className: "btn" }, "Home"),
             React.createElement(Link, { to: "/about", className: "btn" }, "About"),
-            React.createElement(Link, { to: "/contact", className: "btn" }, "Contact"))));
+            React.createElement(Link, { to: "/contact", className: "btn" }, "Contact")),
+        React.createElement("div", { className: "donatebar" },
+            React.createElement("button", null,
+                React.createElement(Donate, null)))));
 };
 //# sourceMappingURL=header.js.map

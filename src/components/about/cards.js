@@ -20,8 +20,8 @@ const mediaCards = [
     }
 ];
 export default function Cards() {
-    return (React.createElement(Box, { p: 5, pt: 15 },
-        React.createElement(Grid, { container: true, spacing: 3 }, mediaCards.map((mediaCard, i) => {
+    return (React.createElement(Box, { p: 1, pt: 25 },
+        React.createElement(Grid, { container: true, spacing: 2 }, mediaCards.map((mediaCard, i) => {
             return (React.createElement(Grid, { key: i, item: true },
                 React.createElement(MediaCard, Object.assign({}, mediaCard))));
         }))));

@@ -284,6 +284,7 @@
     <TypeScriptCompile Include="src\components\about\aboutNadine.tsx" />
     <TypeScriptCompile Include="src\components\about\cards.tsx" />
     <TypeScriptCompile Include="src\components\about\mediaCards.tsx" />
+    <TypeScriptCompile Include="src\components\carousel\carousel.tsx" />
     <TypeScriptCompile Include="src\components\contact\contact.tsx" />
     <TypeScriptCompile Include="src\components\contact\contactForm.tsx" />
     <TypeScriptCompile Include="src\components\contact\contactItem.tsx" />
@@ -293,11 +294,14 @@
     <TypeScriptCompile Include="src\components\endorsements\endorsements.tsx" />
     <TypeScriptCompile Include="src\components\footer\footer.tsx" />
     <TypeScriptCompile Include="src\components\header.tsx" />
+    <TypeScriptCompile Include="src\components\header\headbanner.tsx" />
     <TypeScriptCompile Include="src\components\home\home.tsx" />
     <TypeScriptCompile Include="src\components\index.tsx" />
     <TypeScriptCompile Include="src\components\interfaces\About\IAbout.tsx" />
     <TypeScriptCompile Include="src\components\interfaces\Endorsements\IEndorsements.tsx" />
     <TypeScriptCompile Include="src\components\interfaces\Home\IHome.tsx" />
+    <TypeScriptCompile Include="src\components\media\photoCards.tsx" />
+    <TypeScriptCompile Include="src\components\media\photos.tsx" />
     <TypeScriptCompile Include="src\components\sidebar\sidebar.tsx" />
     <TypeScriptCompile Include="src\components\sidebar\sidebarForm.tsx" />
     <TypeScriptCompile Include="src\index.tsx" />
