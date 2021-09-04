@@ -42,9 +42,13 @@
     "webpack-dev-server": "^3.1.11"
   },
   "scripts": {
-    "start": "webpack-dev-server",
-    "dev": "webpack-dev-server --mode development --open --hot",
-    "prod": "mkdir -p dist && cp ./src/index.html dist/index.html && npm run webpack -- --mode production"
+   "start": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js src/**/*.jsx"
   },
   "repository": {
     "type": "git",
