@@ -84,6 +84,10 @@ module.exports = {
         }),
         new webpack.optimize.CommonsChunkPlugin({
             names: ["vendor", "manifest"],
+        }),
+        new SWPrecacheWebpackPlugin({
+            // ...
+            maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
         })
     ]
 };
